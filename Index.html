@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Geetanjali Pal | Portfolio</title>
+
+<style>
+
+/* Page Animation */
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,#1f4037,#99f2c8);
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+/* Header */
+header{
+    text-align:center;
+    padding:40px;
+    color:white;
+}
+
+header h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+/* Section Cards */
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    margin:20px 0;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+h2{
+    color:#1f4037;
+}
+
+/* Skills List */
+
+ul{
+    line-height:1.8;
+}
+
+/* Contact */
+
+.contact a{
+    text-decoration:none;
+    color:#1f4037;
+    font-weight:bold;
+}
+
+.contact a:hover{
+    color:#0b8457;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Geetanjali Pal</h1>
+<p>DevOps Enthusiast | Automation Testing | Former Investment Research Analyst</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+<p>
+Experienced Investment Research Analyst with 7 years of experience in equity research,
+technical analysis and fundamental analysis. Currently transitioning into the IT field
+with focus on DevOps, Cloud Computing, Automation Testing and modern software tools.
+</p>
+</div>
+
+<div class="card">
+<h2>Professional Experience</h2>
+<ul>
+<li>7+ Years Experience in Investment Research</li>
+<li>Senior Analyst – Equity Market Research</li>
+<li>Technical and Fundamental Analysis of Indian & Global Markets</li>
+<li>Financial Modelling and Market Research</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Technical Skills</h2>
+<ul>
+<li>HTML, CSS, JavaScript</li>
+<li>Git & GitHub</li>
+<li>Linux & CLI</li>
+<li>Docker</li>
+<li>CI/CD (GitHub Actions)</li>
+<li>Cypress Automation Testing</li>
+<li>DevOps Fundamentals</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Projects</h2>
+<ul>
+<li>CI/CD Pipeline using GitHub Actions</li>
+<li>Dockerized Application Deployment</li>
+<li>Automation Testing using Cypress</li>
+</ul>
+</div>
+
+<div class="card contact">
+<h2>Contact</h2>
+<p>Email: your-email@example.com</p>
+<p>GitHub: <a href="#">github.com/yourprofile</a></p>
+<p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Geetanjali Pal | Portfolio
+</footer>
+
+</body>
+</html>
